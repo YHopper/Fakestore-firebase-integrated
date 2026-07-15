@@ -1,0 +1,92 @@
+.app-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.topbar {
+  background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+  color: #f8fafc;
+}
+
+.topbar .btn-outline-dark {
+  color: #f8fafc;
+  border-color: rgba(248, 250, 252, 0.7);
+}
+
+.topbar .btn-outline-dark:hover {
+  background: rgba(248, 250, 252, 0.16);
+  color: #f8fafc;
+}
+
+.eyebrow {
+  letter-spacing: 0.28em;
+  font-size: 0.78rem;
+  color: #93c5fd;
+}
+
+.product-card,
+.cart-item,
+.checkout-card,
+.cart-summary-card,
+.empty-state,
+.status-card {
+  background: #f8fafc;
+  border-color: #dbe3ec;
+}
+
+.hero-copy h1,
+.catalog-section h1,
+.catalog-section h2,
+.card h2,
+.card h3 {
+  color: #0f172a;
+}
+
+.category {
+  color: #2563eb;
+}
+
+.description {
+  color: #64748b;
+}
+
+.price {
+  color: #0f172a;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  gap: 16px;
+  align-items: center;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-item-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item-actions {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
