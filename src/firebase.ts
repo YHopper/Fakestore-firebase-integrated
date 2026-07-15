@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
- //Firebase config goes here
+  // Your Firebase configuration object goes here
 }
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig)
